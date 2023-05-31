@@ -1,0 +1,43 @@
+.detail-view{
+  padding-left: 2.4rem;
+}
+
+.detail-view-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+
+.detail-view-header__heading__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.detail-view-header__heading__date {
+  font-size: 1.2rem;
+  color: var(--accent-color);
+}
+
+.detail-view-header__heading__icon {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.detail-view-header__heading__icon button {
+  padding: 0 !important;
+}
+
+.detail-view-header__heading__icon button svg{
+  font-size: 3rem;
+  cursor: pointer;
+  color: var(--dark-grey);
+}
+
+.detail-view-content{
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--dark-grey);
+}

@@ -1,0 +1,10 @@
+.notes-container{
+  display: grid;
+  grid-template-columns: 0.15fr 0.3fr 0.55fr;
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.notes-container--flex{
+  grid-template-columns: 0.15fr 0.85fr;
+}

@@ -1,0 +1,40 @@
+.header{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.15fr 0.3fr 0.55fr;
+  padding: 1.6rem;
+  gap: 1.6rem;
+}
+
+.header__heading{
+  font-size: 3rem;
+}
+
+.header__search-box{
+  border: 2px solid var(--dark-grey);
+  border-radius: 50px;
+  padding: 1.6rem;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: var(--dark-grey);
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--dark-grey);
+}
+
+::placeholder {
+  color: var(--dark-grey);
+}
+
+.header__welcome-message{
+  justify-self: end;
+  font-size: 1.6rem;
+}
+
+.header__welcome-message span{
+  font-size: 2rem;
+  margin-left: 0.4rem;
+  color: var(--accent-color);
+}

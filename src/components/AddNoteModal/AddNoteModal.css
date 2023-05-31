@@ -1,0 +1,60 @@
+.add-new-modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.4rem;
+}
+
+.add-new-modal__form{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 1.6rem;
+  background-color: var(--white);
+  padding: 2.4rem;
+  border-radius: 12px;
+  width: 100vh;
+}
+
+.add-new-modal__form__title{
+  outline: none;
+  padding: 1.6rem;
+  border-radius: 6px;
+  border: 2px solid var(--dark-grey);
+}
+.add-new-modal__form__description{
+  resize: none;
+  outline: none;
+  padding: 1.6rem;
+  border-radius: 6px;
+  border: 2px solid var(--dark-grey);
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: var(--dark-grey);
+  font-size: 1.4rem;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--dark-grey);
+  font-size: 1.4rem;
+}
+
+::placeholder {
+  color: var(--dark-grey);
+  font-size: 1.4rem;
+}
+
+.add-new-modal__form__button{
+  background-color: var(--accent-color) !important;
+  font-size: 1.4rem !important;
+
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.add-new-modal__form__button svg{
+  margin-right: 0.4rem;
+  font-size: 1.6rem;
+}
